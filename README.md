@@ -10,7 +10,7 @@ Google Antigravity / Cloud Code Assist model provider for [DeepSeek Harness](htt
 
 Provides Google OAuth authentication, **multi-account pool scheduling**, live quota monitoring, seamless failover, and full internationalization (i18n).
 
-> **Credits**: This project is built upon [Miyamiz39/dsh-antigravity](https://github.com/Miyamiz39/dsh-antigravity). Special thanks to the original author for the foundational integration work. This project extends it with multi-account pool scheduling, health awareness, automatic failover, and diagnostics.
+> **Credits**: This project is built upon [LiZhenNet/dsh-antigravity](https://github.com/LiZhenNet/dsh-antigravity). Special thanks to the original author for the foundational integration work. This project extends it with multi-account pool scheduling, health awareness, automatic failover, and diagnostics.
 
 ---
 

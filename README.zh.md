@@ -10,7 +10,7 @@
 
 支持 Google 账号 OAuth 登录、**多账号智能号池调度**、实时配额监控、故障转移降级与会话亲和管理，并完整支持中英文双语界面。
 
-> **致谢与来源**：本项目基于 [Miyamiz39/dsh-antigravity](https://github.com/Miyamiz39/dsh-antigravity) 进行扩展开发。感谢原作者为社区带来的基础集成工作！在此基础上，本项目增加了多账号池调度、健康感知、故障转移和诊断支持。
+> **致谢与来源**：本项目基于 [LiZhenNet/dsh-antigravity](https://github.com/LiZhenNet/dsh-antigravity) 进行扩展开发。感谢原作者为社区带来的基础集成工作！在此基础上，本项目增加了多账号池调度、健康感知、故障转移和诊断支持。
 
 ---
 
