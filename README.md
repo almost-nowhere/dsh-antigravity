@@ -8,18 +8,9 @@ English | [简体中文](./README.zh.md)
 
 Google Antigravity / Cloud Code Assist model provider for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness).
 
-Provides Google OAuth authentication, **multi-account pool scheduling**, live quota monitoring, seamless failover, and full internationalization (i18n).
+Based on [LiZhenNet/dsh-antigravity](https://github.com/LiZhenNet/dsh-antigravity), with a multi-account pool added: you can sign in with several Google accounts and requests are scheduled across them. See [QUOTA-SCHEDULING.md](./QUOTA-SCHEDULING.md) for how scheduling works.
 
-> **Credits**: This project is built upon [LiZhenNet/dsh-antigravity](https://github.com/LiZhenNet/dsh-antigravity). Special thanks to the original author for the foundational integration work. This project extends it with multi-account pool scheduling, health awareness, automatic failover, and diagnostics.
-
----
-
-## Features
-
-- **Multi-Account Scheduling**: Manage multiple Google accounts with automatic load-aware scheduling across active sessions. Preserves session affinity while providing seamless failover when quota is depleted or throttled.
-- **Live Quota Monitoring**: Real-time visualization for Gemini and 3P (Claude / GPT) quota buckets, including 5-hour and weekly reset tracking.
-- **Model Support**: Full support for `gemini-3.8-flash`, `gemini-3.7-flash`, `claude-opus-4-6`, `claude-sonnet-4-6`, etc., with customizable reasoning effort tiers.
-- **Diagnostics**: Built-in structured diagnostics logging to easily inspect and resolve request errors.
+> Unofficial integration. This project is not affiliated with or endorsed by Google. Use it only with accounts and services you are authorized to access.
 
 ---
 

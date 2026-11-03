@@ -8,18 +8,9 @@
 
 适用于 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的 Google Antigravity / Cloud Code Assist 模型提供商插件。
 
-支持 Google 账号 OAuth 登录、**多账号智能号池调度**、实时配额监控、故障转移降级与会话亲和管理，并完整支持中英文双语界面。
+基于 [LiZhenNet/dsh-antigravity](https://github.com/LiZhenNet/dsh-antigravity)，增加了账号池：可以登录多个 Google 账号，请求会在这些账号之间调度。调度方式见 [QUOTA-SCHEDULING.md](./QUOTA-SCHEDULING.md)。
 
-> **致谢与来源**：本项目基于 [LiZhenNet/dsh-antigravity](https://github.com/LiZhenNet/dsh-antigravity) 进行扩展开发。感谢原作者为社区带来的基础集成工作！在此基础上，本项目增加了多账号池调度、健康感知、故障转移和诊断支持。
-
----
-
-## 核心特性
-
-- **多账号号池调度**：支持添加多个 Google 账号，根据各账号实时额度与在途请求平滑分配。同会话优先保持账号亲和，额度告警或触发限流时自动平滑故障转移。
-- **实时配额监控**：直观展示 Gemini 与 3P（Claude / GPT）分组的 5 小时与每周配额进度条、重置时间及号池综合指数。
-- **全系模型支持**：支持最新的 `gemini-3.8-flash`、`gemini-3.7-flash`、`claude-opus-4-6`、`claude-sonnet-4-6` 等，支持高/中/低思考档位与 thoughts 映射。
-- **请求失败诊断**：请求异常时自动生成本地诊断日志，方便排查定位。
+> 非官方集成，与 Google 无关联，也未获其认可。请仅使用你有权访问的账号和服务。
 
 ---
 
